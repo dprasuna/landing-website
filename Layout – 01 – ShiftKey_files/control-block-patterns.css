@@ -1,0 +1,6 @@
+/*Frontend CSS*/
+.cbp-clearfix {
+	display: block;
+	clear: both;
+	content: "";
+}

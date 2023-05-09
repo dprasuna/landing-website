@@ -1,0 +1,28 @@
+.envato-purchase-button {
+position: fixed;
+bottom: 40px;
+left: 40px;
+background-color: black;    
+padding: 10px 20px;
+border-radius: 30px;
+transition: all .3s ease;
+z-index: 1000;
+color: #fff;
+font-size: 0.8125rem;
+font-weight: 400;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+.rtl .envato-purchase-button{ left: auto; right: 40px; }
+.envato-purchase-button img {
+margin-right: 10px;
+margin-bottom: 1px;
+}
+.rtl .envato-purchase-button img { margin-right: 0; margin-left: 10px; }
+.envato-purchase-button:hover, 
+.envato-purchase-button:focus {
+background-color: #97ca58;
+color: white;
+text-decoration: none;
+border-color: black;
+}
